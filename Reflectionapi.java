@@ -1,7 +1,7 @@
 public class Reflectionapi{
 	
 	public long x = 30;
-	public long y = 40;
+	private long y = 40;
 	
 	public Reflectionapi() {
 	  }
@@ -21,7 +21,7 @@ public class Reflectionapi{
 	  }
 
 //Square value of Y
-	public void squareY() 
+	private void squareY() 
 	{
 	    this.y *= this.y;
 	  }
