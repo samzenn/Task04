@@ -1,9 +1,14 @@
+import java.lang.reflect.Method;
 
 public class Reflectionset2 {
 	
-		  public static void main(String[] args) {
+		  public static void main(String[] args) throws Exception {
 
 		    Reflectionapi s = new Reflectionapi();
+		    
+			   Method m = Reflectionapi.class.getDeclaredMethod("squareY");
+		       m.setAccessible(true); 
+		       m.invoke(s);
 		   
 		 s.squareX();
 		    
