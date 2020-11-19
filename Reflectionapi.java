@@ -2,6 +2,7 @@ public class Reflectionapi{
 	
 	public long x = 30;
 	private long y = 40;
+	public long z = 60;
 	
 	public Reflectionapi() {
 	  }
