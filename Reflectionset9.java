@@ -14,6 +14,8 @@ public class Reflectionset9 {
 		    System.out.printf("There are %d methods\n", methods.length);
 
 		    for (Method m : methods) {
+//accessing the private methods
+		      m.setAccessible(true);
 		      System.out.printf("method name=%s type=%s parameters = ", m.getName(),
 		          m.getReturnType());
 		      Class[] types = m.getParameterTypes();
