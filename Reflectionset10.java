@@ -5,6 +5,11 @@ import java.lang.reflect.Method;
  * it demonstrate rules that learn in encapsulation in object oriented programming can be broken
  */
 
+/*
+ * as we learn with the concept of reflection can be called other class private data and methods that brakes the encapsulation rule
+ * but that is mostly using for unit testing with legacy codes 
+ */
+
 public class Reflectionset10 {
 
 	public static void main(String[] args) throws Exception {
